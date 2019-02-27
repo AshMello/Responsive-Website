@@ -1,0 +1,37 @@
+html    {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+#Header {
+    background-color: navy;
+    display: flex;
+    list-style: none;
+}
+
+#Header li {
+    padding: 8px;
+    color: white;
+  
+}
+
+.ad {
+    width: 95%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.doggo img {
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+
+#puppies {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

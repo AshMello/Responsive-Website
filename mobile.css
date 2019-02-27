@@ -1,0 +1,24 @@
+@media only screen and (min-device-width : 0px) and (max-device-width : 480px) {
+
+    #Header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ad {
+      display: none;
+    }
+
+    #puppies {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .doggo img{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    
+} 
